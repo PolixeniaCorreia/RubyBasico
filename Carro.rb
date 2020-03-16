@@ -1,20 +1,23 @@
 class Carro
 
+attr_accessor :marca, :modelo
+attr_reader :marca, :modelo
+attr_writer :marca, :modelo
+
+
  def velocidade_maxima
     250
  end
 
- def adiciona_marca(marca)
-    @marca = marca
+ def descricao
+    "Marca: #{marca} e Modelo: #{modelo}"
  end
-
- def marca
-    @marca
- end
-
+ 
 end
 
 carro = Carro.new
-puts carro.velocidade_maxima
-carro.adiciona_marca("Ford")
-puts carro.marca
+carro.marca = "Ford"
+carro.modelo = "Focus"
+puts "MARCA: "+carro.marca
+puts "MODELO: "+carro.modelo
+puts "Descrição: " +carro.descricao
