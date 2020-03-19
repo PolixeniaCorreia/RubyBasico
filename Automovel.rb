@@ -1,4 +1,9 @@
 class Automovel
+
+    #self metodo de classe, ñ precisa de istanciação
+    def self.tipo_cambio
+        puts "Manual"
+    end
     def acelera
         puts "Acelerando automóvel"
     end
@@ -15,3 +20,5 @@ end
 
 carro = Carro.new
 carro.acelera
+Automovel.tipo_cambio
+Carro.tipo_cambio
