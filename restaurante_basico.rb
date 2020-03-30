@@ -13,3 +13,10 @@
 
 nome = "restaurante"
 puts nome.capitalize
+nome = "restaurante"
+puts nome
+puts ""
+
+nome = "restaurante"
+puts nome.capitalize!
+puts nome
