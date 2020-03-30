@@ -7,6 +7,9 @@
 # mensagem << "tudo bem?"
 # puts mensagem
 
-puts "Digite o nome do restaurante"
-nome = gets
-print "Nome do restaurante: #{nome}"
+# puts "Digite o nome do restaurante"
+# nome = gets
+# print "Nome do restaurante: #{nome}"
+
+nome = "restaurante"
+puts nome.capitalize
