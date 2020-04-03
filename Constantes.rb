@@ -1,0 +1,11 @@
+MAX_USUARIOS = 10
+puts MAX_USUARIOS
+
+MAX_USUARIOS = 100
+puts MAX_USUARIOS
+
+class Carro
+    MODELOS_DISPONIVEIS = ['Modelo X', 'Modelo Y']
+end
+
+puts Carro::MODELOS_DISPONIVEIS
