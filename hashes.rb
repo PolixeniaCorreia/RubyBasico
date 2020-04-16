@@ -48,6 +48,9 @@ class Conta
     end
 end
 
+
 aluno.transfere(50.00, {para: escola, em: Time.now})
 
 aluno.transfere(50.00, {:para => escola, :em => Time.now})
+
+aluno.transfere destino: escola, valor: 50.0, data: Time.now
