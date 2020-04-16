@@ -33,3 +33,5 @@ puts "Incrementando o 10 no final da lista"
 puts lista.push 10
 
 puts lista.join','
+
+
